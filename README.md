@@ -21,7 +21,7 @@ Microphone → SpeechToText → Text Classifier → Serial Communication → ESP
 
 ---
 ## 2) Hardware
-# Core components
+**Core components**
 - An **ESP32 board (MicroPython)** to control the pump and solenoid valves.
 - A **Grove 1.1 MOSFET driver board** to switch the pump on/off.
 - Two silicone components, a **silicone pneumatic petal** and a **bubble actuator**, which inflates and bends when air is pumped in.

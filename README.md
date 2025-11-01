@@ -13,11 +13,12 @@ The three modes are:
 - **Play** — lively, bigger motion (petal 2 + bubble)
 - **Focus** — poised, attentive motion (petal 1 + bubble)
 
+
 The actuators are made of flexible silicone that allow it to bend when air is pumped into it via a small tube.
----
-### Microphone → SpeechToText → Text Classifier → Serial Communication → ESP32 → Pump/Valves → Actuators
-### (from Text Classifier) → VLC → Screen Animation
----
+
+Microphone → SpeechToText → Text Classifier → Serial Communication → ESP32 → Pump/Valves → Actuators
+(from Text Classifier) → VLC → Screen Animation
+
 
 ---
 ## 2) Hardware
@@ -30,7 +31,7 @@ The actuators are made of flexible silicone that allow it to bend when air is pu
 - 3 **Buttons** to mannually actuate the different modes (The buttons are wired to ground. They use the internal Pull-ups on the ESP32)
 - A **Breadboard** to connect all components, **tubing**, **printed manifolds**, **wireing** 
 
-## ESP32 pinout
+### ESP32 pinout
 Refer to **wireing.svg** for exact wireing of all components
 
 
@@ -128,14 +129,3 @@ python path\to\main_with_video.py
 ## 7) Tips
 - Make sure that the tubing is tight at valves, pump, manifold and silicone.
 - Be carefull with the amount of pressure you add into the silicone actuators. In the current set-up the pump is strong enough rip the silicone should it run for too long.
-
-
-# Coding aplication
-The code used in this project is python which is run trough VS Studio Code, this is done in combination with a small amount of micropython that is run on the ESP32 itself.
-
-# Code Structure
-The main code consists of two files, **main.py** runnning on the ESP32 and **main_with_video.py** running locally on a laptop connected to the ESP32
-
-
----
-

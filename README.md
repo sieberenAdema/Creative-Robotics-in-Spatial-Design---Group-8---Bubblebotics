@@ -16,7 +16,7 @@ The three modes are:
 The actuators are made of flexible silicone that allow it to bend when air is pumped into it via a small tube.
 
 Microphone → SpeechToText → Text Classifier → Serial Communication → ESP32 → Pump/Valves → Actuators
-                                                └──────────────→ VLC → Screen Animation
+(from Text Classifier) → VLC → Screen Animation
 ---
 
 ---

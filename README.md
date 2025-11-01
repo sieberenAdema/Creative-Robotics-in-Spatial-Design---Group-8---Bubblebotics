@@ -14,9 +14,9 @@ The three modes are:
 - **Focus** — poised, attentive motion (petal 1 + bubble)
 
 The actuators are made of flexible silicone that allow it to bend when air is pumped into it via a small tube.
-
+---
 ### Microphone → SpeechToText → Text Classifier → Serial Communication → ESP32 → Pump/Valves → Actuators
-(from Text Classifier) → VLC → Screen Animation
+###(from Text Classifier) → VLC → Screen Animation
 ---
 
 ---

@@ -31,7 +31,7 @@ Microphone → SpeechToText → Text Classifier → Serial Communication → ESP
 - A **Breadboard** to connect all components, **tubing**, **printed manifolds**, **wireing** 
 
 ## ESP32 pinout
-Refer to **circuit.png** for exact wireing of all components
+Refer to **wireing.svg** for exact wireing of all components
 
 
 ## 3) Software

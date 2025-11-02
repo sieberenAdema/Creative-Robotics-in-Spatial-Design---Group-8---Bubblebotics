@@ -34,6 +34,8 @@ Microphone → SpeechToText → Text Classifier → Serial Communication → ESP
 ### ESP32 pinout
 Refer to **wireing.svg** for exact wireing of all components
 
+Making process video:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A4v-PSnlZ5w?si=yJa3w9C8E-f-ZMew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 3) Software
 - **ESP32 (MicroPython v1.26.1)** runs valve/pump control and button handling.

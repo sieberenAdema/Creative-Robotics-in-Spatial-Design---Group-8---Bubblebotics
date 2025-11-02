@@ -131,3 +131,34 @@ python path\to\main_with_video.py
 ## 7) Tips
 - Make sure that the tubing is tight at valves, pump, manifold and silicone.
 - Be carefull with the amount of pressure you add into the silicone actuators. In the current set-up the pump is strong enough rip the silicone should it run for too long.
+
+
+## 8) References & handy commands
+
+* MicroPython for ESP32: [https://micropython.org/download/ESP32_GENERIC/](https://micropython.org/download/ESP32_GENERIC/)
+* `machine` module docs: [https://docs.micropython.org/en/latest/library/machine.html](https://docs.micropython.org/en/latest/library/machine.html)
+* Getting started (ESP32/ESP8266): [https://randomnerdtutorials.com/getting-started-micropython-esp32-esp8266/](https://randomnerdtutorials.com/getting-started-micropython-esp32-esp8266/)
+* ESP32 MicroPython tutorials: [https://newbiely.com/tutorials/esp32-micropython/esp32-micropython-ultrasonic-sensor](https://newbiely.com/tutorials/esp32-micropython/esp32-micropython-ultrasonic-sensor)
+
+
+**Usefull CMD snippets**
+
+```CMD
+# File operations
+mpremote connect COM5 fs ls
+mpremote connect COM5 fs rm "main.py"
+mpremote connect COM5 fs cp "C:\\Users\\flori\\Desktop\\indiv\\main.py" :
+mpremote connect COM5 run "C:\\Users\\flori\\Desktop\\indiv\\main.py"
+mpremote connect COM5 repl
+
+# Run PC app
+python "C:\\Users\\flori\\Desktop\\bubble\\brain_serial_llm.py"
+python "C:\\Users\\flori\\Desktop\\bubble\\tinyllama_brain_serial_llm.py"
+```
+
+---
+
+
+## 9) Cite
+
+> Bubblebotics (2025). Creative Robotics in Spatial Design, TU Delft. https://github.com/sieberenAdema/Creative-Robotics-in-Spatial-Design---Group-8---Bubblebotics 

@@ -6,7 +6,7 @@ Soft pneumatic installation controlled by an ESP32 and a local voice interface.
 
 ## 1) Project overview
 This project explores ambient, soft robotic behaviors for spatial design.
-Two soft pneumatic actuators (referred to as 'petal' and 'bubble') are controlled using an ESP32 microcontroller and a local LLM running on a PC to parse voice inputs.
+Two soft pneumatic actuators (referred to as 'petal' and 'bubble') are controlled using an ESP32 microcontroller and a trained sentence classifier (all-MiniLM-L6-v2) running on a PC to parse voice inputs.
 
 The three modes are:
 - **Sleep** — calm, slow inflation (petal only)
@@ -139,7 +139,7 @@ python path\to\main_with_video.py
 * `machine` module docs: [https://docs.micropython.org/en/latest/library/machine.html](https://docs.micropython.org/en/latest/library/machine.html)
 * Getting started (ESP32/ESP8266): [https://randomnerdtutorials.com/getting-started-micropython-esp32-esp8266/](https://randomnerdtutorials.com/getting-started-micropython-esp32-esp8266/)
 * ESP32 MicroPython tutorials: [https://newbiely.com/tutorials/esp32-micropython/esp32-micropython-ultrasonic-sensor](https://newbiely.com/tutorials/esp32-micropython/esp32-micropython-ultrasonic-sensor)
-
+* Sentence transformer model: [https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)
 
 **Usefull CMD snippets**
 

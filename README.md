@@ -1,6 +1,7 @@
 ### Creative Robotics in Spatial Design   Group 8 - Bubblebotics ###
 ARIT1507 Creative Robotics in Spatial Design (2025/26 Q1) - Group 8 “Bubblebotics”
 Soft pneumatic installation controlled by an ESP32 and a local voice interface.
+
 ![Bubblebotics](Titlescreen.png)
 
 **TL;DR**: Speak a mood (Sleep / Play / Focus) → PC classifies the phrase → sends `MODE:*` over serial → ESP32 drives pump + valves to inflate/deflate a silicone petal and bubble → a synchronized video plays on a screen.
